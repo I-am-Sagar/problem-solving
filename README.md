@@ -7,10 +7,10 @@ I am looking for a job, and here I am preparing DSA again.
 
 I am expecting 4 questions in this 90 minutes test. Roughly this should be the format:
 
-**Question 1:** Array-based Questions, Searching-Sorting, Adhoc Problems
-**Question 2:** Strings, Number Theory 
-**Question 3:** Trees or Graphs
-**Question 4:** Dynamic Programming (covers all Recursion only questions as well)
+**Question 1:** Array-based Questions, Searching-Sorting, Adhoc Problems   
+**Question 2:** Strings, Number Theory   
+**Question 3:** Trees or Graphs   
+**Question 4:** Dynamic Programming (covers all Recursion only questions as well)   
 
 Since there is a high chance of Dynamic Programming question for sure, I started with it. 
 

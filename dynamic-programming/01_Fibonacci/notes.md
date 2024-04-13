@@ -11,8 +11,8 @@ This is the problem with which you start your DP journey. What you need to learn
 
 You should also learn one thing, that DP problems are solving two types of problems: 
 
-* Optimization Problems: Whenever the question asks you to find something maximum, minimum, least, longest, highest, shortest, etc., i.e. they are asking you to find the extreme value or provide the optimized solution, there is a chance that this could be the DP problem. Not always, but still a good chance. 
-* Combinatorial Problems: If the question asks the number of ways you can do something, or perform some specific count, there is a good chance it is a DP problem. 
+* **Optimization Problems:** Whenever the question asks you to find something maximum, minimum, least, longest, highest, shortest, etc., i.e. they are asking you to find the extreme value or provide the optimized solution, there is a chance that this could be the DP problem. Not always, but still a good chance. 
+* **Combinatorial Problems:** If the question asks the number of ways you can do something, or perform some specific count, there is a good chance it is a DP problem. 
 
 Once you know this and also know the common pattern of how to convert a recursion to a memoized DP solution, you can solve for the staircase problem. 
 
