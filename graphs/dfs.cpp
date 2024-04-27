@@ -35,6 +35,8 @@ void dfs_list_visit(vector<vector<int>> &g, int start, bool* visited){
 }
 
 void dfs_list(vector<vector<int>> &g) {
+    cout << "DFS LIST:\n";
+
     int n = g.size();
     bool* visited = new bool[n]();
 
@@ -56,8 +58,8 @@ void dfs_matrix_visit(vector<vector<int>> &g, int start, bool* visited) {
         cout << u << " ";
 
         for (int v = 0; v < g.size(); v++) {
-            if (start == v)
-                continue;
+            // if (start == v)
+            //     continue;
             if (g[u][v] == 1 && !visited[v]) {
                 s.push(v);
                 visited[v] = true;
@@ -69,13 +71,19 @@ void dfs_matrix_visit(vector<vector<int>> &g, int start, bool* visited) {
 }
 
 void dfs_matrix(vector<vector<int>> &g) {
+    cout << "DFS MATRIX:\n";
+
     int n = g.size();
     bool* visited = new bool[n]();
 
+    // This for loop is only beneficial when your graph is disconnected
     for (int i = 0; i < n; i++) {
         if (!visited[i])
             dfs_matrix_visit(g, i, visited);
     }
+
+    // If connected, you can do it in single call:
+    // dfs_matrix_visit(g, 2, visited);
 }
 
 int main() {
