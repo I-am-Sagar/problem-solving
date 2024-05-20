@@ -58,8 +58,6 @@ void dfs_matrix_visit(vector<vector<int>> &g, int start, bool* visited) {
         cout << u << " ";
 
         for (int v = 0; v < g.size(); v++) {
-            // if (start == v)
-            //     continue;
             if (g[u][v] == 1 && !visited[v]) {
                 s.push(v);
                 visited[v] = true;
@@ -86,6 +84,32 @@ void dfs_matrix(vector<vector<int>> &g) {
     // dfs_matrix_visit(g, 2, visited);
 }
 
+
+// 2 functions: dfs_visit, dfs
+
+void dfs_visit(vector<vector<int>> &g, int u, bool* visited) {
+    visited[u] = true;
+    cout << u << " ";
+
+    for (auto v: g[u]) {
+        if (!visited[v])
+            dfs_visit(g, v, visited);
+    }
+}
+
+void dfs(vector<vector<int>> &g) {
+    cout << "RECURSIVE DFS LIST:\n";
+
+    int n = g.size();
+    bool* visited = new bool[n]();
+
+    for (int i = 0; i < n; i++) {
+        if (!visited[i])
+            dfs_visit(g, i, visited);
+    }
+    cout << endl;
+}
+
 int main() {
     int n, e; cin >> n >> e;
 
@@ -104,6 +128,7 @@ int main() {
 
     dfs_list(adj_list);
     dfs_matrix(adj_matrix);
+    dfs(adj_list);
 
     return 0;
 }

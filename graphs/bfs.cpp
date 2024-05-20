@@ -12,7 +12,7 @@ void add_edge_matrix(vector<vector<int>> &g, int u, int v) {
     g[v][u] = 1;            // Delete this line for directed graph
 }
 
-// Two functions to perform the DFS
+// Two functions to perform the BFS
 
 // LIST
 void bfs_list(vector<vector<int>> &g, int start) {
@@ -33,8 +33,9 @@ void bfs_list(vector<vector<int>> &g, int start) {
 
     while (!q.empty()) {
         int u = q.front(); q.pop();
-        cout << u << " ";
+        cout << u << " ";      // Printing: Anything with the node, should be done here.
         for (auto v: g[u]) {
+            // Anything with the edge, should be done here.
             if (!visited[v]) {
                 q.push(v);
                 visited[v] = true;
@@ -45,6 +46,31 @@ void bfs_list(vector<vector<int>> &g, int start) {
         i++;
     }
 
+    cout << endl << endl;
+
+    for (int i = 0; i < n; i++)
+        cout << i << " ";
+    cout << endl;
+
+    for (int i = 0; i < n; i++) {
+        cout << level[i] << " ";
+    }
+    cout << endl;
+
+    for (int i = 0; i < n; i++) {
+        cout << parent[i] << " ";
+    }
+    cout << endl;
+
+    int dest = 2; vector<int> path;
+    while (dest != -1) {
+        path.push_back(dest);
+        dest = parent[dest];
+    }
+    reverse(path.begin(), path.end());
+
+    for (auto x: path)
+        cout << x << " ";
     cout << endl;
 }
 
@@ -80,7 +106,6 @@ void bfs_matrix(vector<vector<int>> &g, int start) {
     }
 
     cout << endl;
-    
 }
 
 int main() {
