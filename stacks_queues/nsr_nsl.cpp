@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-vector<int> ngr(vector<int> arr) {
+vector<int> nsr(vector<int> arr) {
     int n = arr.size();
     stack<int> s;
 
@@ -9,7 +9,7 @@ vector<int> ngr(vector<int> arr) {
 
     for (int i = n-1; i >= 0; i--) {
 
-        while (!s.empty() && s.top() <= arr[i])
+        while (!s.empty() && s.top() >= arr[i])
             s.pop();
 
         if (s.empty())
@@ -25,7 +25,7 @@ vector<int> ngr(vector<int> arr) {
     return result;
 }
 
-vector<int> ngl(vector<int> arr) {
+vector<int> nsl(vector<int> arr) {
     int n = arr.size();
     stack<int> s;
 
@@ -33,7 +33,7 @@ vector<int> ngl(vector<int> arr) {
 
     for (int i = 0; i < n; i++) {
 
-        while (!s.empty() && s.top() <= arr[i])
+        while (!s.empty() && s.top() >= arr[i])
             s.pop();
 
         if (s.empty())
@@ -54,7 +54,7 @@ int main() {
 
     vector<int> arr = {1, 3, 2, 2, 4, 1, 2, 1, 6};
 
-    vector<int> ans = ngl(arr);
+    vector<int> ans = nsl(arr);
 
     for (auto x: ans) 
         cout << x  << " ";
