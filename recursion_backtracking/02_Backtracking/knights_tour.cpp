@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-#define N 8
+#define N 5
 
 // --------- Helper functions ----------
 void print(int board[N][N]) {
