@@ -62,6 +62,7 @@ void bfs_list(vector<vector<int>> &g, int start) {
     }
     cout << endl;
 
+    // Shortest path logic
     int dest = 2; vector<int> path;
     while (dest != -1) {
         path.push_back(dest);
