@@ -17,9 +17,9 @@
 
 #include <bits/stdc++.h>
 using namespace std;
-#define MAX 51
+#define MAX 51   // constraints
 
-// Main Logic of Code
+// Main Logic of Code  (DFSVisit)
 int dfs (char graph[MAX][MAX], int n, bool** visited, int i, int j, int count) {
     visited[i][j] = true;
 
@@ -35,6 +35,7 @@ int dfs (char graph[MAX][MAX], int n, bool** visited, int i, int j, int count) {
     return count;
 }
 
+// DFS
 int largestIsland(char graph[MAX][MAX], int n) {
     bool** visited = new bool*[n];
     for (int i = 0; i < n; i++)

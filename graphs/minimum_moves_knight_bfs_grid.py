@@ -29,6 +29,6 @@ def min_knight_moves(start_x, start_y, target_x, target_y):
     
 start_x, start_y = 2, 1
 target_x, target_y = 8, 5
-result=  min_knight_moves(start_x, start_y, target_x, target_y)
+result = min_knight_moves(start_x, start_y, target_x, target_y)
 
 print(result)
