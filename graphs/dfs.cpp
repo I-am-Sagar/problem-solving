@@ -4,12 +4,12 @@ using namespace std;
 // 'u' is a node 'from', 'v' is a node 'to': from u to v
 void add_edge_list(vector<vector<int>> &g, int u, int v) {
     g[u].push_back(v);      
-    g[v].push_back(u);      // Delete this line if graph is directed
+    // g[v].push_back(u);      // Delete this line if graph is directed
 }
 
 void add_edge_matrix(vector<vector<int>> &g, int u, int v) {
     g[u][v] = 1;
-    g[v][u] = 1;            // Delete this line for directed graph
+    // g[v][u] = 1;            // Delete this line for directed graph
 }
 
 // Two functions to perform the DFS
