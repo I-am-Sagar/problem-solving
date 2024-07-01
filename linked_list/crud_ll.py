@@ -112,29 +112,29 @@ class LinkedList:
 def main():
     ll = LinkedList()
 
-    ll.append(1)
-    ll.append(2)
+    ll.append(1)     # 1 -> null
+    ll.append(2)     # 1 -> 2 -> null
     for i in range(3, 6):
-        ll.append(i)
+        ll.append(i)    # 1-> 2 -> 3 -> 4 -> 5 -> null
 
-    ll.print()
+    ll.print()   # 1 2 3 4 5
 
-    ll.insert(6, 2)
-    ll.insert(7, 4)
+    ll.insert(6, 2)   # 1-> 2 -> 6 -> 3 -> 4 -> 5 -> null
+    ll.insert(7, 4)   # 1-> 2 -> 6 -> 3 -> 7 -> 4 -> 5 -> null
 
-    ll.print()
+    ll.print()  # 1 2 6 3 7 4 5
 
-    ll.replace(16, 2)
+    ll.replace(16, 2)  
 
-    ll.print()
+    ll.print()  # 1 2 16 3 7 4 5
 
     ll.delete(16)
     ll.delete(5)
     ll.delete(7)
 
-    ll.print()
+    ll.print()  # 1 2 3 4
 
-    print(len(ll))
+    print(len(ll))   # 4
 
 if __name__ == "__main__":
     main()
