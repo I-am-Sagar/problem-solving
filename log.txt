@@ -1,0 +1,47 @@
+1. f1769ea868c20ce92514f713694d888819183101 LL crud notes added.
+2. cdc2211775d0d80ef464a7db5bad8134e358dcb3 Dp problem + Kruskal's algo
+3. d8049512134a3a9f0f906675ea3b01ed779f5362 Connectivity graphs notes added.
+4. 7e225876da843ba0e7dfbf65e1490861301e3fb2 BFS and DFS on grid graphs
+5. 6f00031fae1149483a5a5865815156fba4151885 Add Notes.
+6. aec1cc45e5e7ef0f72d4d53d7dcb26e6243d8f9c Add DFS and BFS codes.
+7. 893af6c2a16f3eff80c8a0e9bb9d1c026435011b BST notes added.
+8. 4d6d351b8a088f3ebc40cfdfdbfb7e590ccbf42e Binary trees notes done!
+9. 52a5dbd0fa72734ede4343ad4357e15a337b28a3 Add CRUD and LoT notes.
+10. 48925311bec0a7bde8ee1d0081b25d871b4dee71 Add tree recursion notes.
+11. 791bd4be5f0e952bcd6ddee7b5a6dc5abecce01d Add Lec Notes on DP MCM variations + Backtracking.
+12. 8f317c64c774e743eaeee7ba1e7833f7db7c88d8 MCM lecture
+13. 2a48b788074843abb6ff6d92f5928d2654734a7b Push LCS notes.
+14. 57441f1285052dbf69b4e54fbc995e7d1ccc118c DP final class on Knapsack - codes upload - for April.
+15. c566ed6c6854cf33843d5133d463341177e990ea Add Knapsack variations notes.
+16. 60796d32b81c5694fdf5fbe2863705caece22da5 Add Knapsack DP notes.
+17. ba1e1ff667347739e09170c7e55f20c9f5c9b8e2 Add notes for Lec 14 and 15 of April batch.
+18. a7a06767c0d2eb1ecef062fb8de1a7f9eb0c238d Graphs BFS DFS on grids.
+19. 866e08c4c524452ff3d007da1f7e77d754f7a21f NGR and variations added - stack problems
+20. a4e9c0c1ec5263df884fb4f9dbc2dc613a25df9e Lec 12 on stacks and queues as containers.
+21. d3d1c34a254ce1ddcc4afe6522984ce23815d973 April Lec 11 - Median of 2 sorted arrays uploaded
+22. afe0041b7d8ee5d10a742ed91f7b6c171185e45c Add sliding window code for leetcode 76
+23. 55784ee3228f38b2fb9b256edf22db9b807a30fb Sliding window and 2 ptr notes uploaded.
+24. 228b5e7604785a2ffcb7576da4065636335fafa5 Add Lec 8 and 9 notes.
+25. aee21eab7b3c5c5b2b66af8fb5ef4a4a498c5f21 Add Lec 6 and 7 notes for April Batch.
+26. a14678b5b6a171223542d53eb8a8200dcdaf8b5b Custom sort in C++ and py
+27. f5d2130a559c9cd91fb097fc9650645cea67e287 BT more topics.
+28. 474c7197ba36d5ea5f153418db9113dc96fa70c1 Tree Recursion Template in Py
+29. 950dda89f564b3604e75b380912348bd78941290 Add Notes for the first 5 lectures.
+30. f633a81cd287ee6a82f5febc2cc90b324cef40f0 Add partition function based variations.
+31. 62b0ef927ea45ae0141129201ec17e9c6f5888db Add sorting logic in py
+32. 5d7cbcc7f3a66dc8d9708042ef96062b432659a2 Add LL codes in Py.
+33. 3c01c883d788db0affd5232f9fc129b0578f4ff4 Added my algo book
+34. 80450c28ffcce2263f6ff290489b92278430a25a Reading material
+35. 916954d3d2254940a09bb50015cb6faec5554ca5 HeyCoach DSA Feb Batch Book
+36. f5cbc7d5e73288cda5be7b6306e2a20d59519604 Topo sort and MST kruskal added.
+37. 8537b51dcb7addbaf22f7dc8e71c64dbf1862e46 Add PS syllabus of HeyCoach
+38. 51ebe2c19becf59ea3d5291b4bc637f85d678d69 Py code for cycles.
+39. 6d9a0bf3288d9b4f94f87927c428bb78e5543666 Cycles in graphs using DFS
+40. 9efe68d9378bc15bbd4478f260611723fec8b6a7 Path from src to dest in graph using BFS and DFS on adj list and adj matrix
+41. 786b1ae67685f5a041f73e3236ce3cee907770f6 BFS on graph
+42. 973777288b6fcbf49c8beab01dae4cb05d8b2952 DFS on graph
+43. aebbe450c6293a469228d40e514f624ae6377a68 Add tree recursion codes.
+44. 12630edd5e8bf1350129a93aa5c823bd9f453b1e Backtracking codes. Little bit of DP.
+45. f7511375924b2137e2f5e8a4823bc550623d15df Add first tempalte of DP - Fibonacci.
+46. dc371cb653696752f16c12aa65c5607cb5d37754 Add a tip for sets.
+47. 10df00a602134bba307fac0719fd1401d4985249 Add map and set related code.

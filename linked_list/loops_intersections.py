@@ -60,21 +60,21 @@ def main():
 
     for i in range(1, 7):
         ll.append(i)
-    ll.print()
+    ll.print()   # 1 2 3 4 5 6
 
-    print(ll.detect_loop())
+    print(ll.detect_loop())   # false
 
     # loop is created
     last_node = ll.head
     while last_node.next:
         last_node = last_node.next
-    last_node.next = ll.head.next.next.next
+    last_node.next = ll.head.next.next.next   # 6 is pointing back to 4
 
-    print(ll.detect_loop())
+    print(ll.detect_loop())  # true
 
-    ll.remove_loop()
+    ll.remove_loop()  
 
-    print(ll.detect_loop())
+    print(ll.detect_loop())  # false
 
 
     l1 = LinkedListLoop()

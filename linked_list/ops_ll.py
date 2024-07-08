@@ -101,7 +101,7 @@ def main():
     l1.sort()
     l1.print()
 
-    print(l1.detect_loop())
+    # print(l1.detect_loop())
 
 
 if __name__ == "__main__":
