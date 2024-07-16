@@ -1,0 +1,22 @@
+<people>
+    <person>
+        <name>John</name>
+        <age>25</age>
+        <city>New York</city>
+    </person>
+    <person>
+        <name>Alice</name>
+        <age>30</age>
+        <city>Los Angeles</city>
+    </person>
+    <person>
+        <name>Bob</name>
+        <age>28</age>
+        <city>Chicago</city>
+    </person>
+    <person>
+        <name>Emily</name>
+        <age>35</age>
+        <city>San Francisco</city>
+    </person>
+</people>
