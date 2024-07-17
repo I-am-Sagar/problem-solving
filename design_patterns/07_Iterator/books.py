@@ -89,3 +89,8 @@ if __name__ == "__main__":
     print("\nBooks published in 1945:")
     for book in library.get_books_by_year(1945):
         print(book)
+
+    iterator = iter(library)
+    print(iterator.__next__())
+    print(iterator.__next__())
+    print(next(iterator))

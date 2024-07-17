@@ -1,7 +1,9 @@
 // Subject (Observable)
+
+// Libraries = Redux? Sveltestore? 
 class WeatherStation {
     constructor() {
-        this.temperature = null;
+        this.temperature = null; // Variables (states) are dynamically taken care of, each state => observers
         this.observers = [];
     }
 
@@ -31,10 +33,13 @@ class WeatherStation {
 class Display {
     constructor(name) {
         this.name = name;
+        // temperature
     }
 
     update(temperature) {
         console.log(`${this.name} received temperature update: ${temperature}`);
+        // this.temperature = temperature
+        // Whatever you want to trigger, when value change happens.
     }
 }
 

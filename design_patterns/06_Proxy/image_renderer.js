@@ -1,3 +1,4 @@
+// This is an abstract base class => To be inherited. 
 class Image {
     display() {
         throw new Error("This method should be overridden.");

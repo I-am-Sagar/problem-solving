@@ -87,15 +87,19 @@ class LibraryYearIterator {
 
 // Usage example
 const library = new Library();
+
 library.addBook(new Book('The Great Gatsby', 'F. Scott Fitzgerald', 1925));
 library.addBook(new Book('1984', 'George Orwell', 1949));
 library.addBook(new Book('To Kill a Mockingbird', 'Harper Lee', 1960));
 library.addBook(new Book('Animal Farm', 'George Orwell', 1945));
 
 console.log('All books in the library:');
-for (const book of library) {
+// of => automatically calls next() for you, done flag as well! 
+for (const book of library) {  // for loop is sequential 
   console.log(book.toString());
 }
+
+// How will you simulate pause? next() by yourself
 
 console.log('\nBooks by George Orwell:');
 for (const book of library.getBooksByAuthor('George Orwell')) {
@@ -106,3 +110,9 @@ console.log('\nBooks published in 1945:');
 for (const book of library.getBooksByYear(1945)) {
   console.log(book.toString());
 }
+
+// const iterator = library[Symbol.iterator]();
+
+// console.log(iterator.next().value.toString())
+// console.log(iterator.next().value.toString())
+// console.log(iterator.next())
